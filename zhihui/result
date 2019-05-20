@@ -1,0 +1,670 @@
+<!doctype html>
+<html>
+ <head>
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link href="/css/home.68990f806ef654bbc735.bundle.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keyword">
+  <meta name="description">
+  <title>智慧芽官网</title>
+  <script type="text/javascript">var _vds = _vds || [];window._vds = _vds;(function(){_vds.push(['setAccountId', '806644746b1e1190']);(function() {var vds = document.createElement('script');vds.type='text/javascript';vds.async = true;vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(vds, s);})();})();</script>
+ </head> 
+ <body>
+  <div class="header-container">
+   <div class="header-content">
+    <div class="logo">
+     <a href="/"><img class="logo-img" src="/img/icon_logo_white.ebfda45.svg" alt="logo"></a>
+    </div>
+    <div class="nav-container">
+     <ul class="menu-list float-l">
+      <li class="prod-nav"><a class="level_a" href="/">产品<span class="arrow-icon"></span></a>
+       <ul class="prod-list">
+        <a href="/zhuanlijiansuo"><li><span>专利数据库</span></li></a>
+        <a href="/zhuanliditu"><li><span>专利地图</span></li></a>
+        <a href="/zhuanlifenxi"><li><span>专利分析系统</span></li></a>
+        <a href="/huaxue"><li><span>化学数据库</span></li></a>
+        <a href="/zhuanliguanli"><li><span>专利管理系统</span></li></a>
+        <a href="/xueyuan"><li><span>智慧芽学院</span></li></a>
+       </ul></li>
+      <li class="customer-nav"><a class="level_a" href="/anli">客户案例<span class="arrow-icon"></span></a>
+       <ul class="customer-list">
+        <a href="/anli/?1"><li><span>生物/医药</span></li></a>
+        <a href="/anli/?2"><li><span>电子/半导体</span></li></a>
+        <a href="/anli/?3"><li><span>医疗器械</span></li></a>
+        <a href="/anli/?4"><li><span>机械/制造业</span></li></a>
+        <a href="/anli/?5"><li><span>新材料/能源</span></li></a>
+        <a href="/anli/?6"><li><span>高校/研究院</span></li></a>
+        <a href="/anli/?7"><li><span>代理所</span></li></a>
+       </ul></li>
+      <li><a class="level_a" href="/articles">博客<span class="no-arrow"></span></a></li>
+      <li><a class="level_a" href="/baike">百科<span class="no-arrow"></span></a></li>
+      <li><a class="level_a" href="/huodong">活动<span class="no-arrow"></span></a></li>
+      <li class="kehu-nav"><a class="level_a" href="/kehu">功能专区<span class="arrow-icon"></span></a>
+       <ul class="kehu-list">
+        <a href="/kehu/faq/1"><li><span>专利数据库</span></li></a>
+        <a href="/kehu/faq/2"><li><span>智慧芽英策</span></li></a>
+        <a href="/kehu/faq/3"><li><span>3D专利地图</span></li></a>
+       </ul></li>
+      <li class="about-nav"><a class="level_a" href="/about">关于我们<span class="arrow-icon"></span></a>
+       <ul class="about-list">
+        <a href="/about"><li><span>智慧芽的故事</span></li></a>
+       </ul></li>
+     </ul>
+    </div>
+    <div class="float-r demo-db">
+     <ul class="menu-list">
+      <li class="user-nav">
+       <ul class="user-list">
+        <a href="/users/users/set_info"><li><span>个人设置</span></li></a>
+        <a href="/users/login"><li><span>退出登录</span></li></a>
+       </ul></li>
+      <li class="login-nav"><a class="users_login" href="/users/login">登录</a></li>
+     </ul>
+     <a class="toOrders" href="/orders"><span class="booking-demo">预约演示</span></a>
+     <span class="db"><a class="level_a" href="https://analytics.zhihuiya.com/#">进入专利数据库</a></span>
+    </div>
+   </div>
+   <div class="tel-up">
+    <div class="tel">
+     <div class="tel-number">
+      <span>售前咨询：</span>
+      <span class="tel-no">021-61208174</span>
+      <span>售后咨询：</span>
+      <span class="tel-no">400-694-4481</span>
+     </div>
+     <div class="support">
+      <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiIHdpZHRoPSIzNXB4IgoJIGhlaWdodD0iMzVweCIgdmlld0JveD0iMCAwIDM1IDM1IiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCAzNSAzNSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnIGlkPSJJY29uc18xXyI+CjwvZz4KPGcgaWQ9IuWbvuWxgl8zIj4KCTxyZWN0IGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSIjNzZCQTAxIiB3aWR0aD0iMzUiIGhlaWdodD0iMzUiLz4KCTxnIGlkPSJQaG9uZV8yXyI+CgkJPGc+CgkJCTxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSIjRkZGRkZGIiBkPSJNMjUuNTkyLDE5Ljk2bC0zLjE1OS0xLjYyMwoJCQkJYy0wLjc3My0wLjM5OS0xLjc3My0wLjI2NC0yLjQxNCwwLjMyNmwtMC4zNjksMC4zMzhjLTAuMzU3LDAuMzI5LTAuOTE1LDAuNDA1LTEuMzQ5LDAuMTgxYy0xLjA3Ny0wLjU1NC0xLjkzOC0xLjQxNi0yLjQ5NC0yLjQ5MQoJCQkJYy0wLjIyNy0wLjQ0LTAuMTU0LTAuOTgxLDAuMTgzLTEuMzQ3bDAuMzM4LTAuMzY5YzAuMzYyLTAuMzk1LDAuNTYyLTAuOTA1LDAuNTYyLTEuNDM5YzAtMC4zMzctMC4wODEtMC42NzMtMC4yMzUtMC45NzQKCQkJCWwtMS42MjUtMy4xNTZjLTAuNTI1LTEuMDIxLTEuNTY0LTEuNjU1LTIuNzEtMS42NTVjLTAuNjc1LDAtMS4zMTMsMC4yMTYtMS44NDcsMC42MjNMOS41MTEsOS4xMDUKCQkJCWMtMS41MDgsMS4xNDktMi4xMjgsMy4xMzQtMS41NDMsNC45MzhjMS45NDYsNi4wMDMsNi42NjMsMTAuODQ0LDEyLjYxOCwxMi45NDljMC40OCwwLjE3MSwwLjk4MywwLjI1NywxLjQ5MywwLjI1NwoJCQkJYzEuMTkyLDAsMi4zNTUtMC40ODQsMy4xOTEtMS4zMzFsMS4xLTEuMTExYzAuNTY3LTAuNTc1LDAuODgtMS4zMzQsMC44OC0yLjE0QzI3LjI1LDIxLjUyMiwyNi42MTQsMjAuNDg0LDI1LjU5MiwxOS45NnoKCQkJCSBNMjUuMDY4LDIzLjUyM2wtMS4wOTksMS4xMTJjLTAuNzA2LDAuNzE1LTEuODI0LDAuOTczLTIuNzc0LDAuNjM2Yy01LjQyMi0xLjkxOC05LjcxNy02LjMyNS0xMS40ODgtMTEuNzkxCgkJCQljLTAuMzQ2LTEuMDY3LDAuMDIxLTIuMjQyLDAuOTEzLTIuOTIzbDAuOTYxLTAuNzMyYzAuMjEzLTAuMTYyLDAuNDY4LTAuMjQ4LDAuNzM3LTAuMjQ4YzAuNDU4LDAsMC44NzQsMC4yNTQsMS4wODUsMC42NjQKCQkJCWwxLjYyNCwzLjE1NmMwLjAyMSwwLjA0MywwLjAzMywwLjA4OSwwLjAzMywwLjEzOGMwLDAuMDk3LTAuMDQ0LDAuMTY1LTAuMDgxLDAuMjA1bC0wLjMzOCwwLjM2OAoJCQkJYy0wLjg1MiwwLjkyNi0xLjAzNiwyLjMtMC40NTksMy40MTljMC43MjksMS40MTUsMS44NjQsMi41NDksMy4yODEsMy4yNzhjMS4xLDAuNTY3LDIuNTEzLDAuMzc2LDMuNDIyLTAuNDU5bDAuMzY5LTAuMzM4CgkJCQljMC4wNi0wLjA1NiwwLjIxNS0wLjExMywwLjM0My0wLjA0OGwzLjE1OCwxLjYyM2MwLjQxMSwwLjIxMSwwLjY2NSwwLjYyNiwwLjY2NSwxLjA4NAoJCQkJQzI1LjQyMSwyMi45ODksMjUuMjk2LDIzLjI5MywyNS4wNjgsMjMuNTIzeiIvPgoJCTwvZz4KCTwvZz4KPC9nPgo8L3N2Zz4K" alt="">
+     </div>
+    </div>
+    <div>
+     <a href="#top"><img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPgo8c3ZnIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiCgkgd2lkdGg9IjM1LjAwMXB4IiBoZWlnaHQ9IjM1cHgiIHZpZXdCb3g9IjAgMCAzNS4wMDEgMzUiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDM1LjAwMSAzNSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnIGlkPSJJY29uc18xXyI+CjwvZz4KPGcgaWQ9IuWbvuWxgl8zIj4KCTxyZWN0IHg9IjAuMDYyIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZmlsbD0iIzAwQTVDMyIgd2lkdGg9IjM1IiBoZWlnaHQ9IjM1Ii8+Cgk8ZyBpZD0iVXBfNF8iPgoJCTxnPgoJCQk8cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZmlsbD0iI0ZGRkZGRiIgZD0iTTIxLjg3MiwxOC40N2wtMy41ODgtMy45MTQKCQkJCWMtMC4xODYtMC4yMDItMC40NDctMC4zMTctMC43MjItMC4zMTdzLTAuNTM1LDAuMTE1LTAuNzIxLDAuMzE3bC0zLjU4OCwzLjkxNGwwLjAwMiwwLjAwMmMtMC4xNTksMC4xNzUtMC4yNiwwLjQwNC0wLjI2LDAuNjU5CgkJCQljMCwwLjU0LDAuNDM4LDAuOTc5LDAuOTc5LDAuOTc5YzAuMjg1LDAsMC41NC0wLjEyNCwwLjcxOS0wLjMxOWwwLjAwMywwLjAwMmwyLjg2Ni0zLjEyN2wyLjg2NywzLjEyN2wwLjAwMi0wLjAwMgoJCQkJYzAuMTc5LDAuMTk1LDAuNDM0LDAuMzE5LDAuNzE5LDAuMzE5YzAuNTQsMCwwLjk3OS0wLjQzOCwwLjk3OS0wLjk3OWMwLTAuMjU1LTAuMS0wLjQ4NC0wLjI2LTAuNjU5TDIxLjg3MiwxOC40N3ogTTE3LjU2Miw3LjA2MwoJCQkJYy01Ljc2NCwwLTEwLjQzOCw0LjY3NC0xMC40MzgsMTAuNDM4czQuNjc0LDEwLjQzOCwxMC40MzgsMTAuNDM4QzIzLjMyNywyNy45MzgsMjgsMjMuMjY0LDI4LDE3LjVTMjMuMzI3LDcuMDYzLDE3LjU2Miw3LjA2M3oKCQkJCSBNMTcuNTYyLDI1Ljk4Yy00LjY3NiwwLTguNDgtMy44MDUtOC40OC04LjQ4czMuODA1LTguNDgsOC40OC04LjQ4czguNDgsMy44MDUsOC40OCw4LjQ4UzIyLjIzOCwyNS45OCwxNy41NjIsMjUuOTh6Ii8+CgkJPC9nPgoJPC9nPgo8L2c+Cjwvc3ZnPgo=" alt="到达顶部icon"></a>
+    </div>
+   </div>
+  </div>
+  <div class="container">
+   <div class="block-1">
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1920px;height:820px;overflow:hidden;visibility:hidden;">
+     <div class="jssorl-oval" data-u="loading" style="position:absolute;top:0px;left:0px;text-align:center;background-color:rgba(0,0,0,0.7);">
+      <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzgiIGhlaWdodD0iMzgiIHZpZXdCb3g9IjAgMCAzOCAzOCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBzdHJva2U9IiNmZmYiPgogICAgPGcgaWQ9Im92YWwiIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0iZXZlbm9kZCI+CiAgICAgICAgPGcgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMSAxKSIgc3Ryb2tlLXdpZHRoPSIyIj4KICAgICAgICAgICAgPGNpcmNsZSBzdHJva2Utb3BhY2l0eT0iLjUiIGN4PSIxOCIgY3k9IjE4IiByPSIxOCIvPgogICAgICAgICAgICA8cGF0aCBkPSJNMzYgMThjMC05Ljk0LTguMDYtMTgtMTgtMTgiPgogICAgICAgICAgICA8L3BhdGg+CiAgICAgICAgPC9nPgogICAgPC9nPgo8L3N2Zz4=" alt="loading图片" style="margin-top:-19.0px;position:relative;top:50%;width:38px;height:38px;">
+     </div>
+     <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1920px;height:820px;overflow:hidden;">
+      <div id="banner_01">
+       <img src="/img/banner_01.74d3123.jpg" alt="轮播图" data-u="image">
+       <div class="banner-content">
+        <div class="banner-content-title">
+         下一个创新机会在哪里?
+        </div>
+        <div class="banner-content-content">
+         基于专利大数据, 为研发和IP人打造的情报平台
+        </div>
+        <a href="/orders">
+         <div class="banner-content-button">
+          <span>预约演示</span>
+         </div></a>
+       </div>
+      </div>
+      <div id="banner_02">
+       <img src="/img/banner_02.e091bfb.jpg" alt="轮播图" data-u="image">
+       <div class="banner-content">
+        <div class="banner-content-title">
+         用匠心打磨的IP实战课程
+        </div>
+        <div class="banner-content-content">
+         每周一次免费线上课程 与一线行业大咖互动
+        </div>
+        <a href="/huodong">
+         <div class="banner-content-button">
+          <span>报名参加</span>
+         </div></a>
+       </div>
+      </div>
+      <div id="banner_03">
+       <img src="/img/banner_03.79369a5.jpg" alt="轮播图" data-u="image">
+       <div class="banner-content">
+        <div class="banner-content-title">
+         信息爆炸时代: 提取真正的行业见识
+        </div>
+        <div class="banner-content-content">
+         国内第一本从专利视角切入的行业白皮书
+        </div>
+        <a href="/articles">
+         <div class="banner-content-button">
+          <span>获取报告</span>
+         </div></a>
+       </div>
+      </div>
+      <div id="banner_04">
+       <img src="/img/banner_04.6f2e910.jpg" alt="轮播图" data-u="image">
+       <div class="banner-content">
+        <div class="banner-content-title">
+         同是不满于现状: 有人革新,有人复古。
+        </div>
+        <div class="banner-content-content">
+         智慧芽为他们添了双翼, 让创新更早发生
+        </div>
+        <a href="/anli">
+         <div class="banner-content-button">
+          <span>阅读案例</span>
+         </div></a>
+       </div>
+      </div>
+     </div>
+     <div class="jssorb05" data-u="navigator" style="bottom:16px;right:16px;" data-autocenter="1">
+      <div data-u="prototype" style="width:16px;height:16px;"></div>
+     </div>
+     <span class="jssora22l" data-u="arrowleft" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
+     <span class="jssora22r" data-u="arrowright" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
+    </div>
+   </div>
+   <div class="block-2">
+    <div class="main-title">
+     <span>如何用数据驱动业务增长</span>
+    </div>
+    <div class="content">
+     <div class="content-l">
+      <div class="padding-area">
+       <div class="title">
+        发掘市场机会, 精确指明研发方向
+       </div>
+       <div class="content">
+        基于人工智能分析海量专利数据，洞察行业、竞争对手的技术格局，为研发决策提供重要依据。
+       </div>
+       <div class="more">
+        <a href="/orders">
+         <div class="more-button">
+          <span>了解更多</span>
+         </div></a>
+       </div>
+      </div>
+     </div>
+     <img class="content-r" src="/img/3Dmap_computer_01.1ff16de.jpg" alt="产品介绍图">
+    </div>
+   </div>
+   <div class="print-line"></div>
+   <div class="block-3">
+    <div class="content">
+     <div class="content-r">
+      <div class="padding-area">
+       <div class="title">
+        从现有技术中寻找灵感，提升研发效率
+       </div>
+       <div class="content">
+        自由进行专利检索，追踪已有技术的发展脉络，在现有基础上寻求二次创新。
+       </div>
+       <div class="more">
+        <a href="/orders">
+         <div class="more-button">
+          <span>了解更多</span>
+         </div></a>
+       </div>
+      </div>
+     </div>
+     <img class="content-l" src="/img/3Dmap_computer_02.db86ed0.jpg" alt="产品介绍图">
+    </div>
+   </div>
+   <div class="print-line"></div>
+   <div class="block-4">
+    <div class="content">
+     <div class="content-l">
+      <div class="padding-area">
+       <div class="title">
+        保护自有知识产权，规避侵权风险
+       </div>
+       <div class="content">
+        收录同族专利和法律信息，清晰呈现竞争对手的专利布局，从而制定最适合自己的专利策略。
+       </div>
+       <div class="more">
+        <a href="/orders">
+         <div class="more-button">
+          <span>了解更多</span>
+         </div></a>
+       </div>
+      </div>
+     </div>
+     <img class="content-r" src="/img/3Dmap_computer_03.547bb4a.jpg" alt="产品介绍图">
+    </div>
+   </div>
+   <div class="print-line"></div>
+   <div class="block-5">
+    <div class="content">
+     <div class="content-r">
+      <div class="padding-area">
+       <div class="title">
+        全生命周期的专利资产管理
+       </div>
+       <div class="content">
+        针对企业的专利组合全流程管理，包括从审核申请、文档对接到费用报表，全盘提升专利资产的价值。
+       </div>
+       <div class="more">
+        <a href="/orders">
+         <div class="more-button">
+          <span>了解更多</span>
+         </div></a>
+       </div>
+      </div>
+     </div>
+     <img class="content-l" src="/img/3Dmap_computer_04.4baf6a9.jpg" alt="产品介绍图">
+    </div>
+   </div>
+   <div class="print-line"></div>
+   <div class="block-6">
+    <div class="inner">
+     <div class="content">
+      <div class="ratio">
+       <span>提速20</span>
+      </div>
+      <div class="title">
+       <span>用专利连接技术，加速产品研发</span>
+      </div>
+      <div class="content-detail">
+       <span>“使用智慧芽后，我们第三代Alpha机器人的研发周期比之前缩短了20天。对我们来说，智慧芽不只是一个专利数据库，而是一个集成了专利情报、技术情报、法律情报的数据情报平台。</span>
+      </div>
+      <div class="ceo">
+       <span>优必选 知识产权总监 穆裕</span>
+      </div>
+      <a href="/orders">
+       <div class="button">
+        <span>预约演示</span>
+       </div></a>
+     </div>
+    </div>
+   </div>
+   <div class="block-7">
+    <div class="main-title">
+     <span>智慧芽助力了哪些客户快速创新</span>
+    </div>
+    <img class="img" src="/img/website_banner_03.cfa29a8.jpg" alt="全球客户">
+   </div>
+   <div class="block-8">
+    <div class="main-title">
+     <span>他们都在用智慧芽</span>
+    </div>
+    <div class="customers-block">
+     <div class="customers" id="customers">
+      <div class="customer-item">
+       <a href="/anli/view/125">
+        <div class="item-block">
+         <div class="title">
+          <span>高校/研究院</span>
+         </div>
+         <img class="logo" src="/uploads/logo city university.png">
+        </div>
+        <div class="ques">
+         <span>该如何将知识产权研究成果转化为收益该？</span>
+        </div></a>
+      </div>
+      <div class="customer-item">
+       <a href="/anli/view/124">
+        <div class="item-block">
+         <div class="title">
+          <span>高校/研究院</span>
+         </div>
+         <img class="logo" src="/uploads/nus.png">
+        </div>
+        <div class="ques">
+         <span>如何结合多方面的数据点发掘无数战略主张？</span>
+        </div></a>
+      </div>
+      <div class="customer-item">
+       <a href="/anli/view/123">
+        <div class="item-block">
+         <div class="title">
+          <span>生物/医药</span>
+         </div>
+         <img class="logo" src="/uploads/logo biodevices.png">
+        </div>
+        <div class="ques">
+         <span>如何融合科技和市场来引领我们将要走向的方向？</span>
+        </div></a>
+      </div>
+      <div class="customer-item">
+       <a href="/anli/view/122">
+        <div class="item-block">
+         <div class="title">
+          <span>代理所</span>
+         </div>
+         <img class="logo" src="/uploads/logo fandt.png">
+        </div>
+        <div class="ques">
+         <span>在竞争环境下，怎么将知识产权资产价值最大化？</span>
+        </div></a>
+      </div>
+      <div class="customer-item">
+       <a href="/anli/view/121">
+        <div class="item-block">
+         <div class="title">
+          <span>电子/半导体</span>
+         </div>
+         <img class="logo" src="/uploads/tongxinlogo.png">
+        </div>
+        <div class="ques">
+         <span>如何通过专利挖掘与分析主动地把握科研方向？</span>
+        </div></a>
+      </div>
+      <div class="customer-item">
+       <a href="/anli/view/120">
+        <div class="item-block">
+         <div class="title">
+          <span>机械/制造业</span>
+         </div>
+         <img class="logo" src="/uploads/sagwlogo.png">
+        </div>
+        <div class="ques">
+         <span>如何用数据库生成有针对性的信息？</span>
+        </div></a>
+      </div>
+      <div class="customer-item">
+       <a href="/anli/view/119">
+        <div class="item-block">
+         <div class="title">
+          <span>机械/制造业</span>
+         </div>
+         <img class="logo" src="/uploads/naaisilogo.png">
+        </div>
+        <div class="ques">
+         <span>除了技术的进步，还能如何确保项目成功？</span>
+        </div></a>
+      </div>
+      <div class="customer-item">
+       <a href="/anli/view/118">
+        <div class="item-block">
+         <div class="title">
+          <span>医疗器械</span>
+         </div>
+         <img class="logo" src="/uploads/yihelogo.png">
+        </div>
+        <div class="ques">
+         <span>涉及海外业务的企业，如何与国际背景专业服务商合作？</span>
+        </div></a>
+      </div>
+     </div>
+    </div>
+    <a href="/anli">
+     <div class="more-customer">
+      <span>更多案例</span>
+     </div></a>
+   </div>
+   <div class="block-9">
+    <div class="inner">
+     <div class="title">
+      <span>今天就让您的创新更快达成!</span>
+     </div>
+     <a href="/orders">
+      <div class="button">
+       <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAR8AAABGCAYAAAGCpqBQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo0Nzc1QTE1NDYyODFFNjExQThBMEM5MUUyMDQyQ0E2RSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDoxQTI4N0QyQzA3OUYxMUU3QUU4MzhGQzc1NTQ4MUE0MyIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDoxQTI4N0QyQjA3OUYxMUU3QUU4MzhGQzc1NTQ4MUE0MyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M2IChXaW5kb3dzKSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkE2OEFGMDg0NkIwNUU3MTFCQ0UzOTlFQTFDRDZEMjg5IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjQ3NzVBMTU0NjI4MUU2MTFBOEEwQzkxRTIwNDJDQTZFIi8+IDwvcmRmOkRlc2NyaXB0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" alt="免费体验按钮">
+      </div></a>
+    </div>
+   </div>
+  </div>
+  <div class="footer-container">
+   <div class="inner">
+    <div class="links">
+     <div class="img-1">
+      <a href="/articles/view/108"><img src="/img/reading_background.fb48971.jpg" alt="文章链接">
+       <div class="img-content">
+        <div class="title" title="［PPT下载］专利检索如何事半功倍？从IPC分类号学起">
+         <span>［PPT下载］专利检索如何事半功倍？从IPC分类号学起</span>
+        </div>
+        <div class="art-link">
+         <span>阅读全文</span>
+        </div>
+       </div></a>
+     </div>
+     <div class="img-2">
+      <a href="/huodong"><img src="/img/apply_background.3ae2709.jpg" alt="活动链接">
+       <div class="img-content">
+        <div class="title-1">
+         【免费课程】
+        </div>
+        <div class="title-2">
+         知产领域一线大咖，都在智慧芽聊什么？
+        </div>
+        <div class="art-link">
+         <span>报名参加</span>
+        </div>
+       </div></a>
+     </div>
+     <div class="subs">
+      <div class="content">
+       当有新的案例分析、行业报告、干货资料
+      </div>
+      <div class="content-1">
+       及时邮件发给我
+      </div>
+      <div class="email">
+       <input type="email" name="email" readonly>
+      </div>
+      <div class="button">
+       <a href="/subscribes"><span>订阅</span></a>
+      </div>
+     </div>
+    </div>
+    <div class="profile">
+     <div>
+      <dl>
+       <a href="/">
+        <dt>
+         产品
+        </dt></a>
+       <a href="/zhuanlijiansuo">
+        <dd>
+         专利数据库
+        </dd></a>
+       <a href="/zhuanliditu">
+        <dd>
+         专利地图
+        </dd></a>
+       <a href="/zhuanlifenxi">
+        <dd>
+         专利分析系统
+        </dd></a>
+       <a href="/huaxue">
+        <dd>
+         化学数据库
+        </dd></a>
+       <a href="/zhuanliguanli">
+        <dd>
+         专利管理系统
+        </dd></a>
+       <a href="/xueyuan">
+        <dd>
+         智慧芽学院
+        </dd></a>
+      </dl>
+     </div>
+     <div>
+      <dl>
+       <a href="/anli">
+        <dt>
+         客户案例
+        </dt></a>
+       <a href="/anli/?1">
+        <dd>
+         生物/医药
+        </dd></a>
+       <a href="/anli/?2">
+        <dd>
+         电子/半导体
+        </dd></a>
+       <a href="/anli/?3">
+        <dd>
+         医疗器械
+        </dd></a>
+       <a href="/anli/?4">
+        <dd>
+         机械/制造业
+        </dd></a>
+       <a href="/anli/?5">
+        <dd>
+         新材料/能源
+        </dd></a>
+       <a href="/anli/?6">
+        <dd>
+         高校/研究院
+        </dd></a>
+       <a href="/anli/?7">
+        <dd>
+         代理所
+        </dd></a>
+      </dl>
+     </div>
+     <div>
+      <dl>
+       <a href="/articles">
+        <dt>
+         博客
+        </dt></a>
+       <a href="/articles/?1">
+        <dd>
+         案例分析
+        </dd></a>
+       <a href="/articles/?2">
+        <dd>
+         行业报告
+        </dd></a>
+       <a href="/articles/?3">
+        <dd>
+         干货资料
+        </dd></a>
+      </dl>
+     </div>
+     <div>
+      <dl>
+       <a href="/baike/zhuanli/?1">
+        <dt>
+         专利百科
+        </dt></a>
+       <a href="/baike/zhuanli/?1">
+        <dd>
+         专利百科
+        </dd></a>
+       <a href="/baike/zhuanli/?2">
+        <dd>
+         商标百科
+        </dd></a>
+       <a href="/baike/zhuanli/?3">
+        <dd>
+         版权百科
+        </dd></a>
+       <a href="/baike/zhuanli/?4">
+        <dd>
+         其它知识产权
+        </dd></a>
+       <a href="/baike/zhuanli/?5">
+        <dd>
+         知识综合
+        </dd></a>
+       <a href="/baike/zhuanli/?6">
+        <dd>
+         知产人物
+        </dd></a>
+      </dl>
+     </div>
+     <div>
+      <dl>
+       <a href="/kehu">
+        <dt>
+         功能专区
+        </dt></a>
+       <a href="/kehu/faq/1">
+        <dd>
+         专利数据库
+        </dd></a>
+       <a href="/kehu/faq/2">
+        <dd>
+         智慧芽英策
+        </dd></a>
+       <a href="/kehu/faq/3">
+        <dd>
+         3D专利地图
+        </dd></a>
+      </dl>
+     </div>
+     <div>
+      <dl>
+       <dt>
+        解决方案
+       </dt>
+       <dd>
+        解决方案
+       </dd>
+       <dd>
+        IP专业人士
+       </dd>
+       <dd>
+        研发人士
+       </dd>
+       <dd>
+        科研人士
+       </dd>
+       <dd>
+        商务战略人士
+       </dd>
+      </dl>
+     </div>
+     <div>
+      <dl>
+       <dt>
+        关于我们
+       </dt>
+       <a href="/about">
+        <dd>
+         智慧芽的故事
+        </dd></a>
+       <dd>
+        管理团队
+       </dd>
+       <dd>
+        加入我们
+       </dd>
+      </dl>
+     </div>
+    </div>
+    <div class="info">
+     <div class="cities">
+      <div class="title">
+       <span>城市分布</span>
+      </div>
+      <ul class="dist">
+       <li class="selected" data-value="1">苏州（总部）</li>
+       <li data-value="2">新加坡</li>
+       <li data-value="3">上海</li>
+       <li data-value="4">北京</li>
+       <li data-value="5">伦敦</li>
+       <li data-value="6">洛杉矶</li>
+       <li data-value="7">深圳</li>
+      </ul>
+      <div class="address">
+       <span>苏州市工业园区新平街388号 腾飞创新园塔楼C9F</span>
+      </div>
+      <div class="tel">
+       <span>售前电话：</span>
+       <span class="tel-no">0512-62997937</span>
+      </div>
+     </div>
+     <div class="code">
+      <div>
+       <span>关注我们</span>
+      </div>
+      <img src="/img/patsnap.880e071.jpg" alt="二维码">
+     </div>
+    </div>
+    <div class="footer">
+     <div class="content-1">
+      <span>ICP备案号：苏ICP备16059928号-2 公司名称：苏州工业园区百纳谱信息科技有限公司</span>
+     </div>
+     <div class="content-2">
+      <span>Copyright © 2007 - 2017 苏州工业园区百纳谱信息科技有限公司 版权所有</span>
+     </div>
+     <div class="content-2">
+      <span>咨询热线：</span>
+      <span>400-694-4481</span>
+     </div>
+    </div>
+   </div>
+  </div>
+  <script type="text/javascript" src="/js/home.68990f806ef654bbc735.bundle.js"></script> 
+ </body>
+</html>
